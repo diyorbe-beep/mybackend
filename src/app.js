@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const fileUpload = require('express-fileupload');
 const sequelize = require('./config/db');
 
+
 const app = express();
 
 // Middlewares
